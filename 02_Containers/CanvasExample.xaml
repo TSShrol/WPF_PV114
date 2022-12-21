@@ -1,0 +1,17 @@
+﻿<Window x:Class="_02_Containers.CanvasExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_02_Containers"
+        mc:Ignorable="d"
+        Title="CanvasExample" Height="450" Width="800">
+    <Canvas>
+        <Button >Button 1</Button>
+        <Button Canvas.Left="100">Button 2</Button>
+        <Button Canvas.Top="200">Button 3</Button>
+        <Button Canvas.Left="100" Canvas.Top="200">Button 4</Button>
+        <Button Canvas.Right="150">Button 5</Button>
+        <Button Canvas.Bottom="50">Button 6</Button>
+    </Canvas>
+</Window>

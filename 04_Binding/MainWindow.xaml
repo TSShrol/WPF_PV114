@@ -1,0 +1,40 @@
+﻿<Window x:Class="_04_Binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_04_Binding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="500">
+    <StackPanel>
+        <Border BorderBrush="Green" BorderThickness="2">
+            <TextBox x:Name="myTextBox" Height="30">
+            </TextBox>
+        </Border>
+        <Border BorderBrush="Green" BorderThickness="2">
+            <TextBlock x:Name="myTextBlock" Text="{Binding ElementName=myTextBox, Path=Text}" Height="30">
+        </TextBlock>
+        </Border>
+        <TextBox x:Name="numberBox" Text="30" Margin="10"></TextBox>
+        <ProgressBar Value="{Binding ElementName=numberBox, Path=Text}" Height="30" Maximum="100" Margin="10"
+></ProgressBar>
+        <Slider Height="30"
+                Maximum="100"
+                Margin="5"
+                Value="{Binding ElementName=numberBox, Path=Text}"/>
+   
+    <CheckBox x:Name="expend" Margin="10"> </CheckBox>
+    <Expander IsExpanded="{Binding ElementName=expend, Path=IsChecked, Mode=OneTime}" >
+        <TextBlock> Expander Data</TextBlock>
+    </Expander>
+
+      <TextBox x:Name="color" Margin="10" Text="Blue"></TextBox>
+      <Border Background="{Binding ElementName=color, Path=Text}" Height="30"></Border>
+       <Label>Login</Label>
+       <TextBox Text="{Binding Path=AuthData.Login}"></TextBox>
+
+
+    </StackPanel>
+ 
+
+</Window>
