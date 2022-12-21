@@ -54,5 +54,10 @@ namespace _04_Binding
                          +$"Password: {AuthData.Password.First()}{new string('#', AuthData.Password.Length-2)}{AuthData.Password.Last()}  " ;
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(AdminUser.ToString());
+        }
     }
 }

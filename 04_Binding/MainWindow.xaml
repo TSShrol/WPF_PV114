@@ -29,10 +29,12 @@
     </Expander>
 
       <TextBox x:Name="color" Margin="10" Text="Blue"></TextBox>
-      <Border Background="{Binding ElementName=color, Path=Text}" Height="30"></Border>
-       <Label>Login</Label>
-       <TextBox Text="{Binding Path=AuthData.Login}"></TextBox>
-
+        <Border Background="{Binding ElementName=color, Path=Text}" Height="30"></Border>
+       <StackPanel>
+           <Label>Login</Label>
+           <TextBox Text="{Binding Path=AuthData.Login}"></TextBox>
+            <Button Click="Button_Click">Save</Button>
+        </StackPanel>
 
     </StackPanel>
  
