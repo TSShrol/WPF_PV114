@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "04_2_Binding_Template/1.0.0": {
+        "runtime": {
+          "04_2_Binding_Template.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "04_2_Binding_Template/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

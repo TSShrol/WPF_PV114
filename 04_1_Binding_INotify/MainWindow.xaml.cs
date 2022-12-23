@@ -49,7 +49,8 @@ namespace _04_1_Binding_INotify
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"{CurrentStudent.Name} {CurrentStudent.Age} ");
+            group.Add(new Student() { Name=StudentName.Text, Age=Convert.ToInt32( StudentAge.Text) });
+            MessageBox.Show($"{group.Last<Student>().Name} {group.Last<Student>().Age} ");
         }
     }
 }

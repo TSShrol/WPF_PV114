@@ -18,13 +18,13 @@
         </StackPanel>-->
         <StackPanel>
             <Label>Name:</Label>
-            <TextBox Text="" Height="30">
+            <TextBox x:Name="StudentName" Text="" Height="30">
             </TextBox>
             <Label>Age:</Label>
-            <TextBox  Text="" Height="30">
+            <TextBox x:Name="StudentAge" Text="" Height="30">
             </TextBox>
             <Button Click="Button_Click">Save</Button>
-        </StackPanel>
+            </StackPanel>
         <ListBox x:Name="groupStudents">
             <ListBox.Items>
                 <ListBoxItem>Andri 24</ListBoxItem>

@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFContainers", "WPFContain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Containers", "02_Containers\02_Containers.csproj", "{E53A1EE4-897B-4864-98B5-2FC8DF2AC319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Binding", "04_Binding\04_Binding.csproj", "{61B300A1-43A8-4A7F-92E4-1B04E028BC8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Binding", "04_Binding\04_Binding.csproj", "{61B300A1-43A8-4A7F-92E4-1B04E028BC8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_1_Binding_INotify", "04_1_Binding_INotify\04_1_Binding_INotify.csproj", "{5555A6FE-1063-4D79-BE55-222462175293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_1_Binding_INotify", "04_1_Binding_INotify\04_1_Binding_INotify.csproj", "{5555A6FE-1063-4D79-BE55-222462175293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_2_Binding_Template", "04_2_Binding_Template\04_2_Binding_Template.csproj", "{946389F6-402B-4FFC-A86F-1BAD232CE724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5555A6FE-1063-4D79-BE55-222462175293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5555A6FE-1063-4D79-BE55-222462175293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5555A6FE-1063-4D79-BE55-222462175293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
