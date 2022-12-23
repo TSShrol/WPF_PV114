@@ -5,11 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_04_2_Binding_Template"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="350">
     <Window.Resources>
         <DataTemplate x:Key="listTamplate">
             <StackPanel Margin="5">
-                <Image Width="50" Height="50" Source="{Binding Path=ImagePath}"/>
+                <!--<Image Width="50" Height="50" Source="{Binding Path=ImagePath}"/>-->
+                <Ellipse Height="30" Width="30" Margin="5">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/91.jpg"/>
+                    </Ellipse.Fill>
+                </Ellipse>
                 <TextBlock  x:Name="userLastName" FontSize="18" Text="{Binding Path=LastName}"/>
                 <TextBlock x:Name="userFirstName" FontSize="18" Text="{Binding Path=FirstName}"/>
             </StackPanel>
@@ -22,12 +27,22 @@
         </DataTemplate>
        
     </Window.Resources>
-
-    <Grid>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <Label>Input FirstName:</Label>
+            <TextBox x:Name="inputFirstName"></TextBox>
+            <Label>Input LastName:</Label>
+            <TextBox x:Name="inputLastName"></TextBox>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="AddUser" Click="AddUser_Click" Width="60" Margin="10 0">Add</Button>
+                <Button x:Name="DeleteUser" Click="DeleteUser_Click" Width="60" Margin="10 0">Delete</Button>
+                <Button x:Name="ChangeUser" Click="ChangeUser_Click" Width="60" Margin="10 0">Change</Button>
+            </StackPanel>
+        </StackPanel>
          <ListBox x:Name="listUsers" ItemTemplate="{StaticResource listTamplate}" SelectionChanged="listUsers_SelectionChanged">
             
         </ListBox>
         
 
-    </Grid>
+    </DockPanel>
 </Window>

@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="91.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="91.jpg" />
   </ItemGroup>
 
 </Project>

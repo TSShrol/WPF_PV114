@@ -32,12 +32,50 @@ namespace _04_2_Binding_Template
                 new User{ Id=3, ImagePath=@"https://randomuser.me/api/portraits/women/60.jpg", FirstName="Andriana", LastName="Yastrub"},
                 new User{ Id=4, ImagePath=@"https://randomuser.me/api/portraits/men/60.jpg", FirstName="Igor", LastName="Mislivec"}
             };
+             
+            listUsers.Items.Clear();
+            //звязування із xaml
             listUsers.ItemsSource = Users;
         }
 
         private void listUsers_SelectionChanged(object sender, SelectionChangedEventArgs e) { 
-            User user = (User)listUsers.SelectedItem;
-            MessageBox.Show(user.LastName);
+            //User user = (User)listUsers.SelectedItem;
+          //  MessageBox.Show(user.LastName);
+        }
+
+        private void AddUser_Click(object sender, RoutedEventArgs e)
+        {
+            User newUser = new User
+            {
+                Id = Users.Count + 1,
+                ImagePath = @"https://randomuser.me/api/portraits/men/60.jpg",
+                FirstName=inputFirstName.Text,
+                LastName=inputLastName.Text
+            };
+            Users.Add(newUser);
+        }
+
+        private void DeleteUser_Click(object sender, RoutedEventArgs e)
+        {
+            //if (listUsers.SelectedItem == null) return;
+            if (listUsers.SelectedItem != null) {
+                Users.Remove(listUsers.SelectedItem as User);
+            }
+
+
+        }
+
+        private void ChangeUser_Click(object sender, RoutedEventArgs e)
+        {
+            if (listUsers.SelectedItem != null)
+            {
+                var currentUser = listUsers.SelectedItem as User;
+                currentUser.LastName = "None";
+                currentUser.FirstName = "None";
+                //Title = (listUsers.SelectedItem as User).LastName;
+                Title = Users[listUsers.SelectedIndex].LastName;
+
+            }
         }
     }
 }
