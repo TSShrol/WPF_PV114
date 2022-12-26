@@ -15,7 +15,7 @@
                         <ImageBrush ImageSource="/91.jpg"/>
                     </Ellipse.Fill>
                 </Ellipse>
-                <TextBlock  x:Name="userLastName" FontSize="18" Text="{Binding Path=LastName}"/>
+                <TextBlock x:Name="userLastName" FontSize="18" Text="{Binding Path=LastName}"/>
                 <TextBlock x:Name="userFirstName" FontSize="18" Text="{Binding Path=FirstName}"/>
             </StackPanel>
             <DataTemplate.Triggers>

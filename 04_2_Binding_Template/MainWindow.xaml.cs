@@ -76,6 +76,8 @@ namespace _04_2_Binding_Template
                 Title = Users[listUsers.SelectedIndex].LastName;
 
             }
+
+                       
         }
     }
 }

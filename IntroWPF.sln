@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Binding", "04_Binding\04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_1_Binding_INotify", "04_1_Binding_INotify\04_1_Binding_INotify.csproj", "{5555A6FE-1063-4D79-BE55-222462175293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_2_Binding_Template", "04_2_Binding_Template\04_2_Binding_Template.csproj", "{946389F6-402B-4FFC-A86F-1BAD232CE724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_2_Binding_Template", "04_2_Binding_Template\04_2_Binding_Template.csproj", "{946389F6-402B-4FFC-A86F-1BAD232CE724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz_ColorViewer", "dz_ColorViewer\dz_ColorViewer.csproj", "{7603A502-AE62-480A-B88C-0C32BBB32EFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{946389F6-402B-4FFC-A86F-1BAD232CE724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
