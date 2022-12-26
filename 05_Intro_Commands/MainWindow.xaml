@@ -15,5 +15,6 @@
             </MenuItem>
         </Menu>
         <TextBox x:Name="txtBox" TextWrapping="Wrap"> Text...</TextBox>
+        <!--https://wpf-tutorial.com/commands/using-commands/-->
     </DockPanel>
 </Window>
