@@ -27,7 +27,7 @@
                 <Label> Alpha: </Label>
                 <TextBlock x:Name="textAlpha" Text="{Binding ElementName=sliderAlpha, Path=Value}" Padding="0 5"></TextBlock>
             </WrapPanel>
-            <Slider Grid.Row="0"  Grid.Column="1" x:Name="sliderAlpha" Minimum="0" Maximum="100" Margin="10" TickFrequency="1" IsSnapToTickEnabled="True" Cursor="Hand" ValueChanged="slider_OnValueChanged"></Slider>
+            <Slider Grid.Row="0"  Grid.Column="1" x:Name="sliderAlpha" Minimum="0" Maximum="255" Margin="10" TickFrequency="1" IsSnapToTickEnabled="True" Cursor="Hand" ValueChanged="slider_OnValueChanged"></Slider>
             <Ellipse x:Name="ellipseColor" Fill="Black" Grid.Column="2" Grid.RowSpan="3" Width="140" Height="140" Margin="10" ></Ellipse>
 
             <WrapPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -60,7 +60,7 @@
                         </Grid.ColumnDefinitions>
                        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Text="{Binding Name}"></TextBlock>
                        <Rectangle Grid.Column="1" Width="450" Height="30" Fill="{Binding ColorElem}"></Rectangle>
-                       <Button Grid.Column="2" Margin="20 10" Content="Delete"></Button>
+                       <Button x:Name="btnDelete" Grid.Column="2" Margin="20 10" Content="Delete" Click="btnDelete_Click"></Button>
                     </Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>

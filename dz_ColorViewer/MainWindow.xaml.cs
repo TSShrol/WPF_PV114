@@ -26,15 +26,27 @@ namespace dz_ColorViewer
         {
             InitializeComponent();
             colorList = new CustomColorList();
+            sliderAlpha.Value = 255;
             listBoxColor.ItemsSource = colorList;
         }
 
         private void slider_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
+            var alpha =(byte)sliderAlpha.Value;
+            var red = Convert.ToByte(sliderRed.Value);
+            var green = (byte)sliderGreen.Value;
+            var blue = (byte)sliderBlue.Value;
+            color = Color.FromArgb(alpha, red, green, blue);
+            ellipseColor.Fill =new SolidColorBrush(color);
 
         }
 
         private void btnAddColor_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
 
         }

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_2_Binding_Template", "04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz_ColorViewer", "dz_ColorViewer\dz_ColorViewer.csproj", "{7603A502-AE62-480A-B88C-0C32BBB32EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Intro_Commands", "05_Intro_Commands\05_Intro_Commands.csproj", "{0B900D42-D690-476A-A911-F9FECBE8E15A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7603A502-AE62-480A-B88C-0C32BBB32EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B900D42-D690-476A-A911-F9FECBE8E15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B900D42-D690-476A-A911-F9FECBE8E15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B900D42-D690-476A-A911-F9FECBE8E15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B900D42-D690-476A-A911-F9FECBE8E15A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
