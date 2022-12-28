@@ -93,5 +93,21 @@ namespace _06_MVVM.Models
         {
             PropertyChanged?.Invoke(this, e);
         }
+
+        protected bool SetProperty<T>(ref T field, T newValue, [CallerMemberName] string propertyName = null)
+        {
+            if (!Equals(field, newValue))
+            {
+                field = newValue;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+                return true;
+            }
+
+            return false;
+        }
+
+        private object selectedContact;
+
+        public object SelectedContact { get => selectedContact; set => SetProperty(ref selectedContact, value); }
     }
 }

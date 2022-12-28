@@ -1,3 +1,7 @@
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\View\ContactWindow.g.cs
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\App.g.cs
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM_MarkupCompile.cache
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM_MarkupCompile.lref
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.exe
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.deps.json
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.runtimeconfig.json
@@ -5,10 +9,7 @@ D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.runtimeco
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.dll
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\ref\06_MVVM.dll
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\bin\Debug\net5.0-windows\06_MVVM.pdb
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.csproj.AssemblyReference.cache
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\App.g.cs
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM_MarkupCompile.cache
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM_MarkupCompile.lref
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\View\ContactWindow.baml
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.g.resources
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.GeneratedMSBuildEditorConfig.editorconfig
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.AssemblyInfoInputs.cache
@@ -18,5 +19,4 @@ D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.dll
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\ref\06_MVVM.dll
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.pdb
 D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.genruntimeconfig.cache
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\View\MainWindow.g.cs
-D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\View\MainWindow.baml
+D:\Tetyana\WPF\PV114\IntroWPF\06_MVVM\obj\Debug\net5.0-windows\06_MVVM.csproj.AssemblyReference.cache

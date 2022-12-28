@@ -10,19 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using _06_MVVM.ViewModel;
 
-namespace _06_MVVM
+namespace _06_MVVM.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ContactWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ContactWindow : Window
     {
-        public MainWindow()
+        private MainViewModel viewModel = new MainViewModel();
+        public ContactWindow()
         {
             InitializeComponent();
+            DataContext = viewModel;
         }
     }
 }

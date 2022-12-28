@@ -7,7 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\MainWindow.xaml">
+    <Compile Update="View\ContactWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\ContactWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
