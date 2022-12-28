@@ -35,7 +35,7 @@
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
                             <Border Margin="0,0,10,0" HorizontalAlignment="Left" Grid.RowSpan="2" Width="40" Height="40" Background="Black" CornerRadius="50">
-                                <Image Source="user_icon.png"></Image>
+                                <Image Source="../user_icon.png"></Image>
                             </Border>
                             <DockPanel Grid.Column="1" Grid.Row="0">
                                 <TextBlock  FontSize="18" FontWeight="Bold"></TextBlock>
